@@ -1,6 +1,8 @@
 #**********************************************************************
-# 03.17
-# 2019年3月17日14:31:57
+# 04.29
+# 2019年4月29日 20:32:24
+# gfwlist-banAD.acl
+# 
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
 #
 #**********************************************************************
@@ -2895,6 +2897,8 @@
 (^|\.)emuparadise\.me$
 (^|\.)en\.favotter\.net$
 (^|\.)en\.hao123\.com$
+(^|\.)en\.m\.wikipedia\.org$
+(^|\.)en\.wikipedia\.org$
 (^|\.)enanyang\.my$
 (^|\.)enewstree\.com$
 (^|\.)enfal\.de$
@@ -6759,6 +6763,7 @@
 (^|\.)wuw\.red$
 (^|\.)wuyanblog\.com$
 (^|\.)wwitv\.com$
+(^|\.)www\.wikipedia\.org$
 (^|\.)www\.abclite\.net$
 (^|\.)www\.ajsands\.com$
 (^|\.)www\.americorps\.gov$
