@@ -1,11 +1,24 @@
 #**********************************************************************
-# 06.11
-# 2019年6月11日10:35:08
+# 07.27
+# 2019年7月27日09:18:55
+# 转载需要注明版权和来源
+# 
 # gfwlist-banAD.acl
+# 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
 #
+# 参照lhie1的surge规则改编，致谢!! https://github.com/lhie1/Surge
+# 参照scomper的surge规则改编，致谢!! https://gist.github.com/scomper/915b04a974f9e11952babfd0bbb241a8/revisions
+#
+# 更新记录 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/more/New.md
+# 下载地址 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/gfwlist-banAD.acl
+#
+#**********************************************************************
 
 [bypass_all]
-### 默认直连
+### 默认直连 自己可以自定义
+### [outbound_block_list] 禁止访问列表 在26行
+### [bypass_list] 直连列表 禁止访问列表 在723多行
+### [proxy_list] 代理列表 在1205多行
 
 #**********************************************************************
 [outbound_block_list]
@@ -7085,6 +7098,12 @@
 # Epicgames
 (^|\.)\w*epicgames\w*\.\w*$
 (^|\.)helpshift\.com$
+
+# Google
+(^|\.)googleapis\.cn$
+(^|\.)googleapis\.com$
+(^|\.)1e100\.net
+(^|\.)app-measurement\.net
 
 # Hulu
 (^|\.)hulu\.com$
